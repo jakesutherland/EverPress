@@ -1,0 +1,14 @@
+{
+    "name": "jakesutherland/everpress",
+    "description": "EverPress Theme",
+    "homepage": "https://www.everpresstheme.com",
+    "authors": [
+        {
+            "name": "Jake Sutherland",
+            "email": "jake@jakesutherland.com",
+            "homepage": "https://www.jakesutherland.com"
+        }
+    ],
+    "type": "wordpress-theme",
+    "license": "GPL-2.0-or-later"
+}

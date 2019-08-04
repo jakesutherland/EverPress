@@ -1,0 +1,52 @@
+{
+  "name": "everpress",
+  "version": "1.0.0",
+  "description": "EverPress Theme",
+  "main": "./src/everpress.js",
+  "scripts": {
+    "start": "webpack --mode development --config webpack-config.js --watch",
+    "build": "webpack --mode production --config webpack-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakesutherland/EverPress.git"
+  },
+  "author": "",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jakesutherland/EverPress/issues"
+  },
+  "homepage": "https://github.com/jakesutherland/EverPress#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.1.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-fix-style-only-entries": "^0.3.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "last 2 version",
+    "not dead",
+    "iOS >= 9"
+  ]
+}
