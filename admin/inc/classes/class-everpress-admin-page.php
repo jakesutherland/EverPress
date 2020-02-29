@@ -10,7 +10,7 @@ class EverPress_Admin_Page {
 
 	public function display() {
 		if ( ! empty( $this->slug ) ) {
-			$admin_page_file = EVERPRESS_THEME_ADMIN_PAGES_DIR . '/everpress-' . $this->slug . '.php';
+			$admin_page_file = EVERPRESS_THEME_ADMIN_PAGES_PATH . '/everpress-' . $this->slug . '.php';
 
 			if ( file_exists( $admin_page_file ) ) {
 				require_once $admin_page_file;
